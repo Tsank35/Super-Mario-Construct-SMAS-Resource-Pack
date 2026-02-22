@@ -1,0 +1,46 @@
+{
+	"variations": {
+		"default": {
+			"Day": {"source": "Bush.png"},
+			"Night": {"source": "BushNight.png"}
+		},
+		"Underground": {
+			"source": "UndergroundBush.png",
+			"properties": {"primary_layer_size": [1024, 512]},
+			"animation_overrides": {
+				"default": {
+					"frames": [[0, 0, 1024, 512]],
+					"speed": 5,
+					"loop": true
+				}
+			}
+		},
+		"Desert": {
+			"Day": {"source": "DesertBush.png"},
+			"Night": {"source": "DesertBushNight.png"}
+		},
+		"Snow": {
+			"Day": {"source": "SnowBush.png"},
+			"Night": {"source": "SnowBushNight.png"}
+		},
+		"Jungle": {
+			"Day": {"source": "JungleBush.png"},
+			"Night": {"source": "BushNight.png"}
+		},
+		"Autumn": {
+			"Day": {"source": "AutumnBush.png"},
+			"Night": {"source": "BushNight.png"}
+		},
+		"Space": {"source": "SpaceBush.png"},
+		"Underwater": {"source": "UnderwaterBush.png"},
+		"Volcano": {"source": "VolcanoBush.png"},
+		"GhostHouse": {"source": "GhostHouseBush.png"},
+		"Castle": {
+			"Day": {"source": "CastleBush.png"},
+			"Night": {"source": "CastleBushNight.png"}
+		},
+		"CastleWater": {"source": "CastleBushNight.png"},
+		"Airship": {"source": "Blank.png"},
+		"Bonus": {"link": "Castle"}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"properties": {"sky_scroll_speed": -4},
+	"variations": {
+		"Day": {
+			"default": {"source": "DaySky.png"},
+			"Underground": {"source": "DarkSky.png"},
+			"Mountain": {"source": "MountainSky.png"},
+			"Skyland": {"source": "SkyHigh.png"},
+			"Autumn": {"source": "AutumnSky.png"},
+			"Space": {
+				"source": "NightStars.png",
+				"properties": {"sky_scroll_speed": 0},
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[0, 512, 512, 512],
+							[512, 512, 512, 512],
+							[1024, 512, 512, 512],
+							[1536, 512, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				}
+			},
+			"Volcano": {"source": "VolcanoSky.png"},
+			"GhostHouse": {"link": "Underground"},
+			"CastleWater": {"source": "CastleWaterSky.png"},
+			"Airship": {"source": "AirshipSky.png"}
+		},
+		"Night": {
+			"default": {
+				"source": "NightStars.png",
+				"properties": {"sky_scroll_speed": 0},
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[0, 512, 512, 512],
+							[512, 512, 512, 512],
+							[1024, 512, 512, 512],
+							[1536, 512, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				}
+			},
+			"CastleWater": {"source": "CastleWaterSky.png"}
+		}
+	}
+}

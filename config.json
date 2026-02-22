@@ -1,0 +1,11 @@
+{
+	"options": {
+		"Bonus Alignment": "Widescreen"
+	},
+	"value_keys": {
+		"Bonus Alignment": [
+			"4:3",
+			"Widescreen"
+		]
+	}
+}

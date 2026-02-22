@@ -1,0 +1,10 @@
+{
+	"Normal": {
+		"source": "Underwater.ogg",
+		"loop": 3.91
+	},
+	"Hurry": {
+		"source": "UnderwaterHurry.ogg",
+		"loop": 2.607
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"Normal": {
+		"source": "PSwitch.ogg",
+		"loop": 0
+	},
+	"Hurry": {
+		"source": "PSwitchHurry.ogg",
+		"loop": 0
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Crouch": {
+			"frames": [[24, 0, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Move": {
+			"frames": [
+				[0, 0, 24, 24],
+				[48, 0, 24, 24],
+				[72, 0, 24, 24]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"Jump": {
+			"frames": [[96, 0, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Skid": {
+			"frames": [[120, 0, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Climb": {
+			"frames": [
+				[144, 0, 24, 24],
+				[168, 0, 24, 24]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"Die": {
+			"frames": [[0, 24, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"FaceForward": {
+			"frames": [[24, 24, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Pose": {
+			"frames": [[48, 24, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Grow": {
+			"frames": [
+				[0, 0, 24, 24],
+				[72, 24, 24, 24]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"SwimIdle": {
+			"frames": [[96, 24, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"SwimUp": {
+			"frames": [
+				[96, 24, 24, 24],
+				[120, 24, 24, 24],
+				[144, 24, 24, 24]
+			],
+			"speed": 10,
+			"loop": true
+		},
+		"Pipe": {
+			"frames": [[48, 24, 24, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"PoseDoor": {
+			"frames": [
+				[24, 24, 24, 24],
+				[48, 24, 24, 24],
+				[48, 24, 24, 24],
+				[48, 24, 24, 24],
+				[48, 24, 24, 24]
+			],
+			"speed": 5,
+			"loop": false
+		}
+	},
+	"variations": {"source": "Small.png"}
+}

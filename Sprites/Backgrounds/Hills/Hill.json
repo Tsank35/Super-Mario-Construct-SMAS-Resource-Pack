@@ -1,0 +1,180 @@
+{
+	"properties": {"primary_layer_size": [512, 512]},
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 512, 512]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"World1": {
+				"Day": {"source": "Overworld.png"},
+				"Night": {"source": "OverworldNight.png"}
+			},
+			"World8": {
+				"Level1": {
+					"Day": {"source": "Overworld.png"},
+					"Night": {"source": "OverworldNight.png"}
+				},
+				"Level3": {
+					"Day": {"source": "CastleBush.png"},
+					"Night": {"source": "CastleBushNight.png"}
+				}
+			},
+			"World13": {"link": "World8"}
+		},
+		"Underground": {
+			"MainRoom": {
+				"source": "Underground.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[0, 0, 512, 512],
+							[0, 0, 512, 512],
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				}
+			},
+			"BonusRoom": {
+				"config:Bonus Alignment": {
+					"4:3": {
+						"Character:default": {
+							"source": "BonusMario.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Character:Luigi": {
+							"source": "BonusLuigi.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					},
+					"Widescreen": {
+						"Character:default": {
+							"source": "BonusMarioWide.png",
+							"properties": {"primary_layer_size": [464, 512]}
+						},
+						"Character:Luigi": {
+							"source": "BonusLuigiWide.png",
+							"properties": {"primary_layer_size": [464, 512]}
+						}
+					}
+				}
+			}
+		},
+		"Desert": {
+			"Day": {"source": "Desert.png"},
+			"Night": {"source": "DesertNight.png"}
+		},
+		"Snow": {
+			"Day": {"source": "Snow.png"},
+			"Night": {"source": "OverworldNight.png"}
+		},
+		"Jungle": {
+			"Day": {"source": "Jungle.png"},
+			"Night": {"source": "JungleNight.png"}
+		},
+		"Beach": {
+			"Day": {"source": "Beach.png"},
+			"Night": {"source": "BeachNight.png"}
+		},
+		"Garden": {
+			"Day": {"source": "Garden.png"},
+			"Night": {"source": "OverworldNight.png"}
+		},
+		"Mountain": {
+			"Day": {"source": "Mountain.png"},
+			"Night": {"source": "MountainNight.png"}
+		},
+		"Skyland": {
+			"Day": {"source": "Sky.png"},
+			"Night": {"source": "SkyNight.png"}
+		},
+		"Autumn": {
+			"Day": {"source": "Autumn.png"},
+			"Night": {"source": "JungleNight.png"}
+		},
+		"Pipeland": {"source": "Pipeland.png"},
+		"Space": {"source": "Space.png"},
+		"Underwater": {
+			"source": "Underwater.png",
+			"properties": {"primary_layer_size": [1024, 512]},
+			"animation_overrides": {
+				"default": {
+					"frames": [[0, 0, 1024, 512]],
+					"speed": 5,
+					"loop": true
+				}
+			}
+		},
+		"Volcano": {
+			"World1": {"source": "Volcano.png"},
+			"World8": {
+				"Level1": {"source": "Volcano.png"},
+				"Level3": {"source": "CastleBushNight.png"}
+			},
+			"World13": {"link": "World8"}
+		},
+		"GhostHouse": {"source": "GhostHouse.png"},
+		"Castle": {
+			"World1": {"source": "Castle.png"},
+			"World8": {
+				"source": "FinalCastle.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			},
+			"World13": {"link": "World8"}
+		},
+		"CastleWater": {
+			"source": "CastleWater.png",
+			"properties": {"primary_layer_size": [1024, 512]},
+			"animation_overrides": {
+				"default": {
+					"frames": [[0, 0, 1024, 512]],
+					"speed": 5,
+					"loop": true
+				}
+			}
+		},
+		"Airship": {
+			"Day": {"source": "Airship.png"},
+			"Night": {"source": "SkyNight.png"}
+		},
+		"Bonus": {
+			"source": "Bonus.png",
+			"animation_overrides": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512],
+						[1024, 0, 512, 512],
+						[512, 0, 512, 512]
+					],
+					"speed": 5,
+					"loop": true
+				}
+			}
+		}
+	}
+}

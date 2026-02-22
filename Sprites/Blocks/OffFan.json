@@ -1,0 +1,23 @@
+{
+	"animations": {
+		"On": {
+			"frames": [
+				[0, 0, 16, 48],
+				[16, 0, 16, 48],
+				[32, 0, 16, 48],
+				[48, 0, 16, 48]
+			],
+			"speed": 10,
+			"loop": true
+		},
+		"Off": {
+			"frames": [[0, 0, 16, 48]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"source": "OnOffFan.png",
+		"rect": [0, 48, 64, 48]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"properties": {"can_tree_tint": false},
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 512, 512]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {"source": "Trees.png"},
+		"Beach": {"source": "BeachTrees.png"}
+	}
+}

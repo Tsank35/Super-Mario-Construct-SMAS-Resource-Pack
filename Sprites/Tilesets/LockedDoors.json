@@ -1,0 +1,33 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[16, 0, 16, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Open": {
+			"frames": [
+				[16, 0, 16, 32],
+				[32, 0, 16, 32],
+				[48, 0, 16, 32]
+			],
+			"speed": 10,
+			"loop": false
+		},
+		"Close": {
+			"frames": [
+				[48, 0, 16, 32],
+				[32, 0, 16, 32],
+				[16, 0, 16, 32]
+			],
+			"speed": 15,
+			"loop": false
+		},
+		"Locked": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {"source": "Doors.png"}
+}

@@ -1,0 +1,13 @@
+{
+	"properties": {"can_mushroom_tint": false},
+	"variations": {
+		"default": {
+			"Day": {"source": "Mushrooms.png"},
+			"Night": {"source": "MushroomsNight.png"}
+		},
+		"Underground": {"source": "MushroomsNight.png"},
+		"Space": {"link": "Underground"},
+		"Volcano": {"source": "VolcanoMushrooms.png"},
+		"GhostHouse": {"link": "Underground"}
+	}
+}

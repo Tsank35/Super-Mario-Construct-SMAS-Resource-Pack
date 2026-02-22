@@ -1,0 +1,33 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[0, 0, 48, 48],
+				[48, 0, 48, 48],
+				[0, 0, 48, 48],
+				[96, 0, 48, 48]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"FireCharge": {
+			"frames": [[0, 48, 48, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"FireBreathe": {
+			"frames": [[48, 48, 48, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"Fall": {
+			"frames": [
+				[96, 48, 48, 48],
+				[144, 48, 48, 48]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {"source": "Bowser.png"}
+}

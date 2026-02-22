@@ -1,0 +1,57 @@
+{
+	"variations": {
+		"default": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [0, 0, 8, 8]
+		},
+		"Underground": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [8, 0, 8, 8]
+		},
+		"Jungle": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [16, 0, 8, 8]
+		},
+		"Beach": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [24, 0, 8, 8]
+		},
+		"Garden": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [0, 8, 8, 8]
+		},
+		"Mountain": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [8, 8, 8, 8]
+		},
+		"Skyland": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [16, 8, 8, 8]
+		},
+		"Autumn": {"link": "Mountain"},
+		"Pipeland": {"link": "Mountain"},
+		"Space": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [24, 8, 8, 8]
+		},
+		"Underwater": {"link": "Garden"},
+		"Volcano": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [0, 16, 8, 8]
+		},
+		"GhostHouse": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [8, 16, 8, 8]
+		},
+		"Castle": {"link": "Mountain"},
+		"CastleWater": {"link": "Mountain"},
+		"Airship": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [16, 16, 8, 8]
+		},
+		"Bonus": {
+			"source": "BarrelDestructionParticle.png",
+			"rect": [24, 16, 8, 8]
+		}
+	}
+}

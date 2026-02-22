@@ -1,0 +1,36 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[48, 0, 16, 16]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"World1": {
+			"source": "FireFlower.png",
+			"rect": [0, 0, 64, 16]
+		},
+		"World-1": {
+			"source": "FireFlower.png",
+			"rect": [0, 16, 64, 16],
+			"animation_overrides": {
+				"default": {
+					"frames": [
+						[0, 0, 16, 16],
+						[16, 0, 16, 16],
+						[32, 0, 16, 16],
+						[48, 0, 16, 16]
+					],
+					"speed": 10,
+					"loop": true
+				}
+			}
+		}
+	}
+}

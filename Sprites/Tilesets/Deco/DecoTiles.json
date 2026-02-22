@@ -1,0 +1,63 @@
+{
+	"variations": {
+		"default": {
+			"SMB1": {
+				"source": "OverworldDeco.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"SMBLL": {
+				"source": "OverworldDeco.png",
+				"rect": [0, 32, 80, 32]
+			},
+			"SMBANN": {"link": "SMBLL"}
+		},
+		"Underground": {"source": "UndergroundDeco.png"},
+		"Desert": {"source": "DesertDeco.png"},
+		"Snow": {
+			"SMB1": {
+				"source": "SnowDeco.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"SMBLL": {
+				"source": "SnowDeco.png",
+				"rect": [0, 32, 80, 32]
+			},
+			"SMBANN": {"link": "SMBLL"}
+		},
+		"Jungle": {
+			"SMB1": {
+				"source": "JungleDeco.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"SMBLL": {
+				"source": "JungleDeco.png",
+				"rect": [0, 32, 80, 32]
+			},
+			"SMBANN": {"link": "SMBLL"}
+		},
+		"Beach": {"source": "BeachDeco.png"},
+		"Garden": {"source": "GardenDeco.png"},
+		"Mountain": {"source": "MountainDeco.png"},
+		"Skyland": {"source": "SkyDeco.png"},
+		"Autumn": {
+			"SMB1": {
+				"source": "AutumnDeco.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"SMBLL": {
+				"source": "AutumnDeco.png",
+				"rect": [0, 32, 80, 32]
+			},
+			"SMBANN": {"link": "SMBLL"}
+		},
+		"Pipeland": {"source": "PipeLandDeco.png"},
+		"Space": {"source": "SpaceDeco.png"},
+		"Underwater": {"source": "UnderwaterDeco.png"},
+		"Volcano": {"source": "VolcanoDeco.png"},
+		"GhostHouse": {"source": "GhostHouseDeco.png"},
+		"Castle": {"source": "CastleDeco.png"},
+		"CastleWater": {"link": "Castle"},
+		"Airship": {"source": "AirshipDeco.png"},
+		"Bonus": {"source": "BonusDeco.png"}
+	}
+}

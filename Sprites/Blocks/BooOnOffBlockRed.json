@@ -1,0 +1,29 @@
+{
+	"animations": {
+		"Default": {
+			"frames": [[32, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		},
+		"On": {
+			"frames": [
+				[16, 0, 16, 16],
+				[0, 0, 16, 16]
+			],
+			"speed": 10,
+			"loop": false
+		},
+		"Off": {
+			"frames": [
+				[16, 0, 16, 16],
+				[32, 0, 16, 16]
+			],
+			"speed": 10,
+			"loop": false
+		}
+	},
+	"variations": {
+		"source": "OnOffBlock.png",
+		"rect": [0, 16, 48, 16]
+	}
+}

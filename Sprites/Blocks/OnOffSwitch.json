@@ -1,0 +1,26 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		},
+		"Off": {
+			"frames": [
+				[16, 0, 16, 16],
+				[0, 0, 16, 16]
+			],
+			"speed": 10,
+			"loop": false
+		},
+		"On": {
+			"frames": [
+				[16, 16, 16, 16],
+				[0, 16, 16, 16]
+			],
+			"speed": 10,
+			"loop": false
+		}
+	},
+	"variations": {"source": "OnOffSwitch.png"}
+}

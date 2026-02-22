@@ -1,0 +1,6 @@
+{
+	"variations": {
+		"SMB1": {"source": "TitleSMB.ogg"},
+		"SMBLL": {"source": "TitleSMBLL.bgm"}
+	}
+}

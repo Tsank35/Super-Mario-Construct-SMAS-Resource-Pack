@@ -1,0 +1,10 @@
+{
+	"Normal": {
+		"source": "CustomLevel.ogg",
+		"loop": 1.1
+	},
+	"Hurry": {
+		"source": "CustomLevel.ogg",
+		"loop": 1.1
+	}
+}
