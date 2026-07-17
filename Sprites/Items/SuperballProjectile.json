@@ -1,0 +1,10 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 7, 7]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {"source": "SuperballProjectile.png"}
+}

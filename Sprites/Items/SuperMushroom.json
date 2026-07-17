@@ -7,7 +7,15 @@
 		}
 	},
 	"variations": {
-		"source": "Mushroom.png",
-		"rect": [0, 0, 16, 16]
+		"config:Colorblind Mode": {
+			"Off": {
+				"source": "Mushroom.png",
+				"rect": [0, 0, 16, 16]
+			},
+			"On": {
+				"source": "Mushroom.png",
+				"rect": [0, 16, 16, 16]
+			}
+		}
 	}
 }

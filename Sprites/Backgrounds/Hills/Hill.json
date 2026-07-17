@@ -1,5 +1,4 @@
 {
-	"properties": {"primary_layer_size": [512, 512]},
 	"animations": {
 		"default": {
 			"frames": [[0, 0, 512, 512]],
@@ -9,24 +8,19 @@
 	},
 	"variations": {
 		"default": {
-			"World1": {
-				"Day": {"source": "Overworld.png"},
-				"Night": {"source": "OverworldNight.png"}
-			},
-			"World8": {
-				"Level1": {
+			"LevelMetadata:Background": {
+				"Default": {
 					"Day": {"source": "Overworld.png"},
 					"Night": {"source": "OverworldNight.png"}
 				},
-				"Level3": {
+				"Castle": {
 					"Day": {"source": "CastleBush.png"},
 					"Night": {"source": "CastleBushNight.png"}
 				}
-			},
-			"World13": {"link": "World8"}
+			}
 		},
 		"Underground": {
-			"MainRoom": {
+			"RoomType:Normal": {
 				"source": "Underground.png",
 				"animation_overrides": {
 					"default": {
@@ -48,26 +42,52 @@
 					}
 				}
 			},
-			"BonusRoom": {
+			"RoomType:BonusRoom": {
 				"config:Bonus Alignment": {
 					"4:3": {
 						"Character:default": {
 							"source": "BonusMario.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Character:Luigi": {
 							"source": "BonusLuigi.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					},
 					"Widescreen": {
 						"Character:default": {
-							"source": "BonusMarioWide.png",
-							"properties": {"primary_layer_size": [464, 512]}
+							"source": "BonusMario.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Character:Luigi": {
-							"source": "BonusLuigiWide.png",
-							"properties": {"primary_layer_size": [464, 512]}
+							"source": "BonusLuigi.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				}
@@ -109,7 +129,6 @@
 		"Space": {"source": "Space.png"},
 		"Underwater": {
 			"source": "Underwater.png",
-			"properties": {"primary_layer_size": [1024, 512]},
 			"animation_overrides": {
 				"default": {
 					"frames": [[0, 0, 1024, 512]],
@@ -119,12 +138,13 @@
 			}
 		},
 		"Volcano": {
-			"World1": {"source": "Volcano.png"},
-			"World8": {
-				"Level1": {"source": "Volcano.png"},
-				"Level3": {"source": "CastleBushNight.png"}
-			},
-			"World13": {"link": "World8"}
+			"LevelMetadata:Background": {
+				"Default": {
+					"Day": {"source": "Volcano.png"},
+					"Night": {"source": "VolcanoNight.png"}
+				},
+				"Castle": {"source": "CastleBushNight.png"}
+			}
 		},
 		"GhostHouse": {"source": "GhostHouse.png"},
 		"Castle": {
@@ -148,7 +168,6 @@
 		},
 		"CastleWater": {
 			"source": "CastleWater.png",
-			"properties": {"primary_layer_size": [1024, 512]},
 			"animation_overrides": {
 				"default": {
 					"frames": [[0, 0, 1024, 512]],

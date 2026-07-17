@@ -1,11 +1,20 @@
 {
 	"options": {
+		"Colorblind Mode": "Off",
 		"Bonus Alignment": "Widescreen"
 	},
 	"value_keys": {
+		"Colorblind Mode": [
+			"Off",
+			"On"
+		],
 		"Bonus Alignment": [
 			"4:3",
 			"Widescreen"
 		]
+	},
+	"option_descs": {
+		"Colorblind Mode": "Distinguishes items whose only difference is color.",
+		"Bonus Alignment": "Due to how bonus rooms are handled across different resolutions, the background cannot be universally centered. Set this to your preferred resolution."
 	}
 }

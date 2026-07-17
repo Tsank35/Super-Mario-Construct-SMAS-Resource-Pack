@@ -1,0 +1,10 @@
+{
+	"variations": {
+		"World1": {},
+		"World8": {
+			"Level1": {},
+			"Level3": {"metadata": {"Background": "Castle"}}
+		},
+		"World13": {"link": "World8"}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[0, 0, 36, 36],
+				[36, 0, 36, 36],
+				[72, 0, 36, 36],
+				[36, 0, 36, 36]
+			],
+			"speed": 10,
+			"loop": true
+		},
+		"Charge": {"link": "Idle"},
+		"Dive": {"link": "Idle"}
+	},
+	"variations": {"source": "AngrySun.png"}
+}

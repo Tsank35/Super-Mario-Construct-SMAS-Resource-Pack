@@ -6,7 +6,6 @@
 		},
 		"Underground": {
 			"source": "UndergroundBush.png",
-			"properties": {"primary_layer_size": [1024, 512]},
 			"animation_overrides": {
 				"default": {
 					"frames": [[0, 0, 1024, 512]],
@@ -27,13 +26,54 @@
 			"Day": {"source": "JungleBush.png"},
 			"Night": {"source": "BushNight.png"}
 		},
+		"Beach": {
+			"source": "BeachBush.png",
+			"animation_overrides": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512],
+						[1024, 0, 512, 512],
+						[1536, 0, 512, 512],
+						[0, 512, 512, 512],
+						[512, 512, 512, 512],
+						[1024, 512, 512, 512],
+						[1536, 512, 512, 512]
+					],
+					"speed": 5,
+					"loop": true
+				}
+			}
+		},
+		"Garden": {
+			"Day": {"source": "GardenBush.png"},
+			"Night": {"source": "GardenBushNight.png"}
+		},
 		"Autumn": {
 			"Day": {"source": "AutumnBush.png"},
 			"Night": {"source": "BushNight.png"}
 		},
 		"Space": {"source": "SpaceBush.png"},
 		"Underwater": {"source": "UnderwaterBush.png"},
-		"Volcano": {"source": "VolcanoBush.png"},
+		"Volcano": {
+			"source": "VolcanoBush.png",
+			"animation_overrides": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512],
+						[1024, 0, 512, 512],
+						[1536, 0, 512, 512],
+						[0, 512, 512, 512],
+						[512, 512, 512, 512],
+						[1024, 512, 512, 512],
+						[1536, 512, 512, 512]
+					],
+					"speed": 5,
+					"loop": true
+				}
+			}
+		},
 		"GhostHouse": {"source": "GhostHouseBush.png"},
 		"Castle": {
 			"Day": {"source": "CastleBush.png"},

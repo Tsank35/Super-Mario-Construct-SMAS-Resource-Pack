@@ -13,12 +13,20 @@
 	},
 	"variations": {
 		"World1": {
-			"source": "FireFlower.png",
-			"rect": [0, 0, 64, 16]
+			"config:Colorblind Mode": {
+				"Off": {
+					"source": "FireFlower.png",
+					"rect": [0, 0, 64, 16]
+				},
+				"On": {
+					"source": "FireFlower.png",
+					"rect": [0, 16, 64, 16]
+				}
+			}
 		},
 		"World-1": {
 			"source": "FireFlower.png",
-			"rect": [0, 16, 64, 16],
+			"rect": [0, 32, 64, 16],
 			"animation_overrides": {
 				"default": {
 					"frames": [
