@@ -20,7 +20,7 @@
 			}
 		},
 		"Underground": {
-			"RoomType:Normal": {
+			"RoomType:Default": {
 				"source": "Underground.png",
 				"animation_overrides": {
 					"default": {
