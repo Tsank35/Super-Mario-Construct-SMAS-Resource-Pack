@@ -1,13 +1,21 @@
 Made for SMB1R 1.1-26w28a.
 
-To download, click the green Code button at the top and then click Download ZIP.
+To download, click the green `Code` button at the top and then click `Download ZIP`.
 
-Current configs:
+Configuration options:
+- Colorblind Mode
+	- Distinguishes items whose only difference is color.
+- Bonus Alignment
+	- Due to how bonus rooms are handled across different resolutions, the background cannot be universally centered. Set this to your preferred resolution.
 
-Colorblind Mode
-Changes most power-ups to be more visually distinct.
-
-Bonus Aligntment
-Due to the way SMB1R backgrounds are rendered, the bonus room background will shift depending on the resolution.
-There are two options: 4:3 and Widescreen.
-Select the option that matches your preferred resoution.
+Most sprites here belong to Nintendo and the Super Mario Construct sprite team:
+- Smuglutena
+- Nitrox
+- Fesh
+- Mist
+- Uniido
+- cuB.e
+- Red-Bun
+- Noveni
+- hdtv
+- NotAToon
