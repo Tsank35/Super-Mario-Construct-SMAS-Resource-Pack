@@ -7,7 +7,18 @@
 		},
 		"Underground": {"source": "MushroomsNight.png"},
 		"Space": {"link": "Underground"},
-		"Volcano": {"source": "VolcanoMushrooms.png"},
-		"GhostHouse": {"link": "Underground"}
+		"Volcano": {
+			"config:Volcano Sky": {
+				"Default": {"source": "Mushrooms.png"},
+				"Alternate": {"source": "VolcanoMushrooms.png"}
+			}
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Volcano": {
+			"config:Airship Sky": {
+				"Default": {"source": "Mushrooms.png"},
+				"Alternate": {"source": "AirshipMushrooms.png"}
+			}
+		}
 	}
 }

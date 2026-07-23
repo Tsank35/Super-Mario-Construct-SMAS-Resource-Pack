@@ -10,7 +10,16 @@
 		"default": {
 			"LevelMetadata:Background": {
 				"Default": {
-					"Day": {"source": "Overworld.png"},
+					"Day": {
+						"source": "Overworld.png",
+						"animation_overrides": {
+							"default": {
+								"frames": [[0, 0, 1024, 512]],
+								"speed": 5,
+								"loop": true
+							}
+						}
+					},
 					"Night": {"source": "OverworldNight.png"}
 				},
 				"Castle": {
@@ -98,7 +107,16 @@
 			"Night": {"source": "DesertNight.png"}
 		},
 		"Snow": {
-			"Day": {"source": "Snow.png"},
+			"Day": {
+				"source": "Snow.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [[0, 0, 1024, 512]],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			},
 			"Night": {"source": "OverworldNight.png"}
 		},
 		"Jungle": {
@@ -106,12 +124,30 @@
 			"Night": {"source": "JungleNight.png"}
 		},
 		"Beach": {
-			"Day": {"source": "Beach.png"},
-			"Night": {"source": "BeachNight.png"}
+			"Day": {
+				"source": "Beach.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [[0, 0, 1024, 512]],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			},
+			"Night": {
+				"source": "BeachNight.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [[0, 0, 1024, 512]],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			}
 		},
 		"Garden": {
 			"Day": {"source": "Garden.png"},
-			"Night": {"source": "OverworldNight.png"}
+			"Night": {"source": "GardenNight.png"}
 		},
 		"Mountain": {
 			"Day": {"source": "Mountain.png"},
@@ -140,7 +176,12 @@
 		"Volcano": {
 			"LevelMetadata:Background": {
 				"Default": {
-					"Day": {"source": "Volcano.png"},
+					"Day": {
+						"config:Volcano Sky": {
+							"Default":  {"source": "Volcano.png"},
+							"Alternate":  {"source": "VolcanoAlt.png"}
+						}
+					},
 					"Night": {"source": "VolcanoNight.png"}
 				},
 				"Castle": {"source": "CastleBushNight.png"}
@@ -177,7 +218,12 @@
 			}
 		},
 		"Airship": {
-			"Day": {"source": "Airship.png"},
+			"Day": {
+				"config:Airship Sky": {
+					"Default": {"source": "Airship.png"},
+					"Alternate": {"source": "AirshipAlt.png"}
+				}
+			},
 			"Night": {"source": "SkyNight.png"}
 		},
 		"Bonus": {

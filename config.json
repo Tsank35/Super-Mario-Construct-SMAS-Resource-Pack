@@ -1,7 +1,11 @@
 {
 	"options": {
 		"Colorblind Mode": "Off",
-		"Bonus Alignment": "Widescreen"
+		"Bonus Alignment": "Widescreen",
+		"Desert Sky": "Default",
+		"Snow Sky": "Default",
+		"Volcano Sky": "Alternate",
+		"Airship Sky": "Alternate"
 	},
 	"value_keys": {
 		"Colorblind Mode": [
@@ -11,10 +15,42 @@
 		"Bonus Alignment": [
 			"4:3",
 			"Widescreen"
+		],
+		"Desert Sky": [
+			"Default",
+			"Alternate"
+		],
+		"Snow Sky": [
+			"Default",
+			"Alternate"
+		],
+		"Volcano Sky": [
+			"Default",
+			"Alternate"
+		],
+		"Airship Sky": [
+			"Default",
+			"Alternate"
 		]
 	},
 	"option_descs": {
 		"Colorblind Mode": "Distinguishes items whose only difference is color.",
-		"Bonus Alignment": "Due to how bonus rooms are handled across different resolutions, the background cannot be universally centered. Set this to your preferred resolution."
+		"Bonus Alignment": "Due to how bonus rooms are handled across different resolutions, the background cannot be universally centered. Set this to your preferred resolution.",
+		"Desert Sky": [
+			"Uses the Sky 1 gradient for Desert levels; The default for most themes.",
+			"Uses the Sunset 2 gradient for Desert levels."
+		],
+		"Snow Sky": [
+			"Uses the Sky 1 gradient for Snow levels; The default for most themes.",
+			"Uses the Snow 1 gradient for Snow levels."
+		],
+		"Volcano Sky": [
+			"Uses the Dark 1 gradient for Volcano levels.",
+			"Uses the Crimson 1 gradient for Volcano levels."
+		],
+		"Airship Sky": [
+			"Uses the Dark 1 gradient for Airship levels.",
+			"Uses the Storm 1 gradient for Airship levels."
+		]
 	}
 }
