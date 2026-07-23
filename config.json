@@ -4,8 +4,8 @@
 		"Bonus Alignment": "Widescreen",
 		"Desert Sky": "Default",
 		"Snow Sky": "Default",
-		"Volcano Sky": "Alternate",
-		"Airship Sky": "Alternate"
+		"Volcano Sky": "Default",
+		"Airship Sky": "Default"
 	},
 	"value_keys": {
 		"Colorblind Mode": [
